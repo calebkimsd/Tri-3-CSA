@@ -11,4 +11,6 @@
 -----------
 
 # Data Structure Work:
-- [Link to Repl](https://replit.com/repls/folder/Tri%203%20Challenges%20and%20Hack)
+- [Link to Repl](https://replit.com/@calebkimsd/hack-challenge)
+
+<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@calebkimsd/hack-challenge"></iframe>
