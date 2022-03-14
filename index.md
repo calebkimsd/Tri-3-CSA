@@ -19,3 +19,8 @@
 - [Review Ticket Week 1]
 - [Review Ticket Week 2]
 - [Review Ticket Week 3]
+
+-----------
+
+# TPT Libary to Notes:
+- [Mr. Mort TPT0 Notes](https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-3:-Tech-Talk-0---Data-Structures)
