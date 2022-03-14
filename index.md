@@ -13,4 +13,4 @@
 # Data Structure Work:
 - [Link to Repl](https://replit.com/@calebkimsd/hack-challenge)
 
-<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@calebkimsd/hack-challenge"></iframe>
+<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@calebkimsd/hack-challenge?embed=true"></iframe>
