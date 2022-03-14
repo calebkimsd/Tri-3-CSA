@@ -11,6 +11,4 @@
 -----------
 
 # Data Structure Work:
-- [Link to Repl](https://replit.com/@calebkimsd/hack-challenge)
-
-<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@calebkimsd/hack-challenge?embed=true"></iframe>
+- [Review Ticket Week 0](https://github.com/zenxha/musicgacha/issues/7)
