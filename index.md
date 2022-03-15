@@ -8,10 +8,15 @@
 
 # Test Plans:
 - Study Group with Chris & Komay
+- 
 - Planning to get on weekly call and review CB units that we find difficult. 
+- 
 - Find practice MC & FRQ CB problems online and solve them. 
+- 
 - Recalling back to Trimester 1 journal to read over notes and refine them as well (also the vocab check from 2nd trimester).
+- 
 - Ask lots of questions to clear misunderstandings and missed concepts.
+
 -----------
 
 # Data Structure Work:
@@ -23,4 +28,5 @@
 -----------
 
 # TPT Libary to Notes:
-- [Mr. Mort TPT0 Notes](https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-3:-Tech-Talk-0---Data-Structures)
+- [Caleb TPT0 Notes](https://github.com/calebkimsd/Tri-3-CSA/wiki/Caleb-Kim-Tech-Talk-0-Notes)
+- [Caleb TPT1 Notes](https://github.com/calebkimsd/Tri-3-CSA/wiki/Caleb-Kim-Tech-Talk-1-Notes)
