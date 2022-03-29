@@ -6,5 +6,5 @@
 ## TPT Libary to Notes (directed to my WIKI): 
 - [Caleb TPT0 Notes](https://github.com/calebkimsd/Tri-3-CSA/wiki/Caleb-Kim-Tech-Talk-0-Notes)
 - [Caleb TPT1 Notes](https://github.com/calebkimsd/Tri-3-CSA/wiki/Caleb-Kim-Tech-Talk-1-Notes)
-- [Caleb TPT2 Notes]
+- [Caleb TPT2 Notes](https://github.com/calebkimsd/Tri-3-CSA/wiki/Caleb-Kim-Tech-Talk-2-Notes)
 - [Caleb TPT3 Notes]
