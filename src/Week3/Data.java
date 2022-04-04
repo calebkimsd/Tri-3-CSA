@@ -13,6 +13,7 @@ public class Data {
 public Data(int size, String method) {
         Instant start = Instant.now(); 
 
+        //creating the arraylists 
         for (int i = 0; i < size; i++) {
             data.add((int)(Math.random() * (size+1)));
         }
@@ -35,6 +36,7 @@ public Data(int size, String method) {
     System.out.println(); 
   }
 
+  //nanosecond
   Instant end = Instant.now();    
         this.timeElapsed = Duration.between(start, end);
       
@@ -45,6 +47,7 @@ public Data(int size, String method) {
 
   
     public int getTimeElapsed() {
+      
       //retrieves the Nano Time
         return timeElapsed.getNano();
     }
