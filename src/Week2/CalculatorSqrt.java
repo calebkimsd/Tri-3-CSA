@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.lang.Math;
+import java.util.Scanner;
 
 public class CalculatorSqrt {
   
@@ -181,4 +182,13 @@ public class CalculatorSqrt {
                 "Reverse Polish Notation: " +this.reverse_polish.toString() + "\n" +
                 "Final result: " + String.format("%.2f", this.result));
     }
+  
+   public static void main(String[] args) {
+     
+      Scanner sc = new Scanner(System.in);
+       System.out.println("Enter Orginal Expression: ");
+       String normal = sc.nextLine(); 
+       Calculator type = new Calculator(normal);
+       System.out.println(type); 
+     }
 }

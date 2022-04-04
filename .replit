@@ -1,2 +1,2 @@
 language = "java"
-run = "javac src/Menu.java; java src/Menu;
+run = "javac src/DynamicMenu.java; java src/DynamicMenu; find src -type f -name '*.class' -delete"

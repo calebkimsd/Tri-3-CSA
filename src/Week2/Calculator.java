@@ -200,4 +200,58 @@ public class Calculator {
                 "Reverse Polish Notation: " +this.reverse_polish.toString() + "\n" +
                 "Final result: " + String.format("%.2f", this.result));
     }
+  
+   public static void main(String[] args) {
+     
+   Calculator simpleMath = new Calculator("100 + 200  * 3");
+        System.out.println("Simple Math\n" + simpleMath);
+
+        System.out.println();
+
+        Calculator parenthesisMath = new Calculator("(100 + 200)  * 3");
+        System.out.println("Parenthesis Math\n" + parenthesisMath);
+
+        System.out.println();
+
+        Calculator fractionMath = new Calculator("100.2 - 99.3");
+        System.out.println("Fraction Math\n" + fractionMath);
+
+        System.out.println();
+
+        Calculator moduloMath = new Calculator("300 % 200");
+        System.out.println("Modulo Math\n" + moduloMath);
+
+        System.out.println();
+
+        Calculator divisionMath = new Calculator("300/200");
+        System.out.println("Division Math\n" + divisionMath);
+
+        System.out.println();
+
+        Calculator multiplicationMath = new Calculator("300 * 200");
+        System.out.println("Multiplication Math\n" + multiplicationMath);
+
+        System.out.println();
+
+        Calculator allMath = new Calculator("200 % 300 + 5 + 300 / 200 + 1 * 100");
+        System.out.println("All Math\n" + allMath);
+
+        System.out.println();
+
+        Calculator allMath2 = new Calculator("200 % (300 + 5 + 300) / 200 + 1 * 100");
+        System.out.println("All Math2\n" + allMath2);
+
+        System.out.println();
+
+        Calculator allMath3 = new Calculator("200%(300+5+300)/200+1*100");
+        System.out.println("All Math3\n" + allMath3);
+
+      System.out.println();
+
+      Calculator powerMath = new Calculator ("2^4");
+        System.out.println("powerMath\n" + powerMath);
+
+      System.out.println();
+
+  }
 }

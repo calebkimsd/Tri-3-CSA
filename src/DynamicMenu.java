@@ -12,7 +12,7 @@ import src.Week3.*;
 public class DynamicMenu {
 
   Map<Integer, DynamicMenuRow> menu = new HashMap<>();
-  public Menu(DynamicMenuRow[] rows) {
+  public DynamicMenu(DynamicMenuRow[] rows) {
         int i = 0;
         for (DynamicMenuRow row : rows) {
             menu.put(i++, new DynamicMenuRow(row.getTitle(), row.getAction()));
@@ -36,8 +36,8 @@ public class DynamicMenu {
 }
 
 class DynamicMenuRow {
-    String title;       // menu item title
-    Runnable action;    // menu item action, using Runnable
+    String title;       
+    Runnable action;    
 
 
     public DynamicMenuRow(String title, Runnable action) {
@@ -74,7 +74,7 @@ class Driver {
         };
 
 
-        Menu menu = new Menu(rows);
+        DynamicMenu menu = new DynamicMenu(rows);
 
 
         while (true) {

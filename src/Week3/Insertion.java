@@ -4,16 +4,16 @@ import java.util.*;
 public class Insertion {
   public static void sort (List<Integer> list) {
     
-      for (int j = 1; j < list.size(); j++) {
-          Integer current = list.get(j);
-          int i = j-1;
+      for (int i = 1; i < list.size(); i++) {
+          Integer current = list.get(i);
+          int j = i-1;
         
-          while ((i > -1) && (list.get(i) > current)) {
-              list.set(i+1, list.get(i));
-              i--;
+          while ((j > -1) && (list.get(j) > current)) {
+              list.set(j+1, list.get(j));
+              j--;
           }
         
-          list.set(i+1, current);
+          list.set(j+1, current);
       }
   }
 }
