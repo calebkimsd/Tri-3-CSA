@@ -1,11 +1,13 @@
 package src.Week3; 
 import java.util.*; 
 
+//Bubble Sort
 public class Bubble {
   public static void sort (List<Integer> list) {
     Integer temp;
     boolean sorted = false;
 
+    //While Loop used to sort through list
     while (!sorted) {
         sorted = true;
         for (int i = 0; i < list.size()-1; i++) {

@@ -97,6 +97,4 @@ public class Merge {
             System.out.println(strList.get(i));
         }
     }
- 
-
 }

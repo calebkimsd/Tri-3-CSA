@@ -63,9 +63,8 @@ public class Sorts {
     
     System.out.println("Average of 12 times in seconds " + "(Without the High and Low "+ allTen/10/1000000000.0);
 
-   
-  
-  
-    
+   System.out.println("Conclusion: Merge Sort is the fastest out of all 4 Sorts/n Why? --> Because it has O(nlog(n)) where N is mulitpled to log(n) which will produce a smaller time than O(n)^2 and O(n). Bubble Sort is also super duper slow sometimes --> not efficent!");
+
   }
+  
 }

@@ -17,6 +17,7 @@ public Data(int size, String method) {
             data.add((int)(Math.random() * (size+1)));
         }
 
+  //If statements to sort through each "sort" --> organization to choose each to perference
   if (method.equals("selection"))  {
     Selection.sort(data);
     System.out.println(); 
@@ -42,6 +43,7 @@ public Data(int size, String method) {
         return data;
     }
 
+  
     public int getTimeElapsed() {
       //retrieves the Nano Time
         return timeElapsed.getNano();
