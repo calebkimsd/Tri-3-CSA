@@ -15,6 +15,6 @@
 - [Review Ticket Week 0](https://github.com/zenxha/musicgacha/issues/7)
 - [Review Ticket Week 1](https://github.com/calebkimsd/Tri-3-CSA/issues/1)
 - [Review Ticket Week 2](https://github.com/calebkimsd/Tri-3-CSA/issues/2)
-- [Review Ticket Week 3]
+- [Review Ticket Week 3](https://github.com/calebkimsd/Tri-3-CSA/issues/3)
 
 -----------
