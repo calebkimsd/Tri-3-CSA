@@ -4,8 +4,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.lang.Math;
+import java.util.Scanner;
 
-public class CalculatorSqrt {
+public class CalculatorInput {
   
     // Key instance variables intialized
     private final String expression;
@@ -23,7 +24,7 @@ public class CalculatorSqrt {
     }
 
   // Create a 1 argument constructor expecting a mathematical expression
-    public CalculatorSqrt(String expression) {
+    public CalculatorInput (String expression) {
         // original input
         this.expression = expression;
 
@@ -41,7 +42,12 @@ public class CalculatorSqrt {
     private final Map<String, Integer> OPERATORS = new HashMap<>();
     {
         // Map<"token", precedence>
-        OPERATORS.put ("sqrt" , 2);
+        OPERATORS.put ("^" , 2);
+        OPERATORS.put("*", 3);
+        OPERATORS.put("/", 3);
+        OPERATORS.put("%", 3);
+        OPERATORS.put("+", 4);
+        OPERATORS.put("-", 4);
     }
   
     // Test if token is an operator
@@ -116,7 +122,12 @@ public class CalculatorSqrt {
                     }
                     tokenStack.pop();
                     break;
-                case "sqrt":
+                case "+":
+                case "-":
+                case "*":
+                case "/":
+                case "%":
+                case "^":
                     // While stack
                     // not empty AND stack top element
                     // and is an operator
@@ -141,14 +152,10 @@ public class CalculatorSqrt {
         }
 
     }
-
-    // Takes RPN and produces a final result
     private void rpnToResult()
     {
-      
         Stack math = new Stack();
 
-        
         for (String token : this.reverse_polish)
         {
             
@@ -158,19 +165,32 @@ public class CalculatorSqrt {
             }
             else
             {
-             
-                Double one = Double.valueOf( (String)math.pop() );
-                       
-                Double answer = 0.0;
+          Double one = Double.valueOf( (String)math.pop() ); 
+          Double two = Double.valueOf( (String)math.pop() );
+          Double answer = 0.0;
 
-              if (token.equals("sqrt")) {
-                  answer = Math.sqrt(one);
+              if (token.equals("+")) {
+                answer = one + two; 
+              }
+              if (token.equals("-")) {
+                answer = one - two; 
+              }
+              if (token.equals("*")) {
+                answer = one * two; 
+              }
+              if (token.equals("/")) {
+                answer = one / two; 
+              }
+              if (token.equals("%")) {
+                answer = one % two; 
+              }
+              if (token.equals("^")) {
+                 answer = Math.pow(one , two);
               }
 
           math.push( String.valueOf(answer));
             }
         }
-    
         this.result = Double.valueOf((String)math.pop());
     }
 
@@ -184,9 +204,11 @@ public class CalculatorSqrt {
   
    public static void main(String[] args) {
      
-      CalculatorSqrt sqrtMath = new CalculatorSqrt ("sqrt (25)");
-        System.out.println("sqrtMath\n" + sqrtMath);
+  Scanner sc = new Scanner(System.in);
+       System.out.println("Enter Orginal Expression: ");
+       String normal = sc.nextLine(); 
+       Calculator type = new Calculator(normal);
+       System.out.println(type);
 
-      System.out.println();
-     }
+  }
 }

@@ -64,8 +64,10 @@ class Driver {
     public static void main(String[] args) {
         Week2MenuRow[] rows = new Week2MenuRow[]{
           new Week2MenuRow("Exit", () -> main(null)),
-          new Week2MenuRow("Calculator & Input/Output", () -> Calculator.main(null)),
+          new Week2MenuRow("RPN Calculator", () -> Calculator.main(null)),
           new Week2MenuRow("Square Root", () -> CalculatorSqrt.main(null)), 
+          new Week2MenuRow("Calculator Input/Output", () -> CalculatorInput.main(null)),
+          
 
         };
 
@@ -74,7 +76,7 @@ class Driver {
 
 
         while (true) {
-            System.out.println("Which Week?:");
+            System.out.println("Which Calculator?:");
 
             menu.print();
 
