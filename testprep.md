@@ -1,5 +1,5 @@
 <p align="right"><a href="https://calebkimsd.github.io/Tri-3-CSA/">Home</a></p>
-<p align="right"><a href="https://calebkimsd.github.io/Tri-3-CSA/notes">TPT Notes</a></p>
+<p align="right"><a href="https://calebkimsd.github.io/Tri-3-CSA/notes">Notes / Key Learnings / Challenges</a></p>
 <p align="right"><a href="https://calebkimsd.github.io/Tri-3-CSA/testprep">AP Test Prep</a></p>
 
 
