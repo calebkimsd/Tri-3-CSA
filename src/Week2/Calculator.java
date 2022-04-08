@@ -168,6 +168,27 @@ public class Calculator {
           Double two = Double.valueOf( (String)math.pop() );
           Double answer = 0.0;
 
+          switch(token) {
+              case "+":
+                 answer = one + two; 
+                 break;
+              case "-":
+                 answer = one - two; 
+                 break;
+              case "*":
+                answer = one * two;
+                break;
+              case "/":
+                answer = one / two;
+                break;
+              case "%":
+                answer = one % two;
+                break;
+              case "^":
+                answer = Math.pow(one, two);
+                break;
+          }
+          /* 
               if (token.equals("+")) {
                 answer = one + two; 
               }
@@ -186,6 +207,7 @@ public class Calculator {
               if (token.equals("^")) {
                  answer = Math.pow(one , two);
               }
+              */
 
           math.push( String.valueOf(answer));
             }
