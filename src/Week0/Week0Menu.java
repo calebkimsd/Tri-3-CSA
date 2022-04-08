@@ -3,7 +3,6 @@ package src.Week0;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
-import java.util.ArrayList;
 
 
 public class Week0Menu {
