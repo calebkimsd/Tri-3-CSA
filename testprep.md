@@ -47,5 +47,5 @@
 - Review past resources linked above.
 
 ### Resources: 
-- Practice MCQ: https://www.apcsaexam.org/uploads/1/0/7/7/107712547/aexam-2018-v2.pdf
-- Answers to MCQ: https://www.apcsaexam.org/uploads/1/0/7/7/107712547/apbowl2018answersv2.pdf
+- Practice MCQ: [Link](https://www.apcsaexam.org/uploads/1/0/7/7/107712547/aexam-2018-v2.pdf)
+- Answers to MCQ: [Link](https://www.apcsaexam.org/uploads/1/0/7/7/107712547/apbowl2018answersv2.pdf)
