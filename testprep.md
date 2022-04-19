@@ -30,3 +30,22 @@
 - Lists key vocabulary terms and then a definition with a code example. 
 - Easy to understand vocab terms because we created them ourselves.
 - Not all will be tested on the College Board exam but all of them are useful as we grow in computer science. 
+
+
+## Study Plans 2 Week Mark
+
+### Week of 4/18
+- Mon: Practice more MCQ questions with Scrum Team
+- Tues: Take practice MCQ Test on CB 
+- Wed: Reflect and Correct on the MCQ Test on CB
+- Thurs: Take FRQ practice Test
+- Fri: Reflect and Correct the FRQ practice Test
+
+### WEEKEND PLAN: 
+- Non-Timed MCQ practice to fully understand material and be good at every topic. 
+- Watch Daily CB videos and take notes.
+- Review past resources linked above.
+
+### Resources: 
+- Practice MCQ: https://www.apcsaexam.org/uploads/1/0/7/7/107712547/aexam-2018-v2.pdf
+- Answers to MCQ: https://www.apcsaexam.org/uploads/1/0/7/7/107712547/apbowl2018answersv2.pdf
