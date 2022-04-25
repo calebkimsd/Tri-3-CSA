@@ -6,6 +6,9 @@
 
 # Caleb Kim / Study Guide (EMPHASIS on ideas that I need to review more than other) 
 
+- Exam Weighting:
+
+- ![image](https://files.catbox.moe/e8hznx.jpg)
 ## Resources
 
 - [Barons Textbook](https://www.mooreschools.com/cms/lib/OK01000367/Centricity/Domain/1996/book.pdf)
