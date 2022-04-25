@@ -2,6 +2,7 @@
 <p align="right"><a href="https://calebkimsd.github.io/Tri-3-CSA/notes">Notes / Key Learnings / Challenges</a></p>
 <p align="right"><a href="https://calebkimsd.github.io/Tri-3-CSA/testprep">AP Test Prep</a></p>
 <p align="right"><a href="https://calebkimsd.github.io/Tri-3-CSA/FRQ">FRQ</a></p>
+<p align="right"><a href="https://calebkimsd.github.io/Tri-3-CSA/studyguide">Study Guide</a></p>
 
 # CALEB INDIVIDUAL PAGE
 - Navigates notes and plans for each Tech Talk
