@@ -23,3 +23,11 @@
 
 
 ## 2020 AP CSA FRQs
+
+## Question 1: 
+
+![e](https://files.catbox.moe/y51yhh.PNG)
+
+## Question 3:  
+
+![s](https://files.catbox.moe/2h2hww.PNG)
