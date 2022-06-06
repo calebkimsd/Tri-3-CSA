@@ -27,3 +27,17 @@ Improved knowledge on [Databases](https://github.com/zenxha/musicgacha/tree/main
            Group was able to guide me through [JSON](https://github.com/zenxha/musicgacha/tree/main/src/main/resources/static/json) characters/songs and using these                "characters" to use in our project. 
            
    It was fun to move out of simple Java such as just for loops and if statements and start to dive deeper into the challenging content. 
+
+
+
+## Final Grade
+
+OUT of 30 PTS + TEACHER ADDS 5 PTS 
+
+-5/5 --> Final Seed (going to NATM) 
+
+-18/20 --> Missing some tech guidelines
+
+-4/5 --> Meeting new tech guidelines.
+
+### 27/30 BEFORE TEACHER GRADING
